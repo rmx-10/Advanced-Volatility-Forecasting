@@ -1,0 +1,17 @@
+data:
+  ticker: "AAPL"
+  start_date: "2018-01-01"
+  end_date: "2023-01-01"
+  window: 60
+
+model:
+  lstm_hidden: 64
+  lstm_layers: 2
+  epochs: 5
+  batch_size: 32
+  learning_rate: 0.001
+
+paths:
+  data_dir: "data/"
+  experiments_dir: "experiments/"
+  figures_dir: "experiments/figures/"
